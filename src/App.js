@@ -33,8 +33,6 @@ class App extends React.Component {
 							...snapShot.data(),
 						},
 					});
-
-					console.log(this.state);
 				});
 
 				//in case userAuth is null, we want to set our currentUser back to null
